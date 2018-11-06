@@ -49,10 +49,10 @@ public class BigChainDbConnectionService {
       .setup();
   }
 
-//  public static void main(String[] a) {
-//    BigChainDbConnectionService b = new BigChainDbConnectionService();
-//    List<String> files = new ArrayList<String>();
-//    files.add("/Users/Parth/BigChainDatabase/src/main/resources/DbNodes/DbNode1.json");
-//    b.connectDbNodes(files);
-//  }
+  public static void main(String[] a) {
+    BigChainDbConnectionService b = new BigChainDbConnectionService();
+    List<String> files = new ArrayList<String>();
+    files.add("/Users/Parth/BigChainDatabase/src/main/resources/DbNodes/DbNode1.json");
+    b.connectDbNodes(files);
+  }
 }
